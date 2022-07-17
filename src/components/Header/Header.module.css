@@ -1,7 +1,8 @@
 .header {
     background: var(--gray-800);
     display: flex;
-    justify-content: center;
+    height: 5rem;
+    justify-content: flex-start;
     align-items: center;
     padding: 1.25rem 0;
     gap: 1rem;
@@ -10,4 +11,8 @@
 
 .header img{
     height: 2.25rem;
+}
+
+.header strong{
+    margin-left: 2rem;
 }
